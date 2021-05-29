@@ -12,8 +12,8 @@ void freeSlice(Slice *); 					/* free Slices */
 
 struct Slice
 {
-	char * begin_slice_p; 				/* pointer to a char in string that indecates the beginning of a Slice */
-	int length; 						/* length of the slice */
+	char * begin_slice_p; 				    /* pointer to a char in string that indecates the beginning of a Slice */
+	int length; 						    /* length of the slice */
 };
 
 #endif //SLICE_H

@@ -14,8 +14,8 @@ void printTokenList(TokenList);				/* print all slices in tokenArr */
 
 struct TokenList
 {
-	Slice **sectionArr;					/* pointer to array of pointers of Slices */
-	int numOfSections; 					/* number of tokens */
+	Slice **sectionArr;					    /* pointer to array of pointers of Slices */
+	int numOfSections; 					    /* number of tokens */
 };
 
 #endif //TOKENIZATION_H
